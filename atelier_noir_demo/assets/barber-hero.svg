@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 980" role="img" aria-label="Illustration vintage d'un fauteuil de barbier">
+<defs>
+ <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#89755e"/><stop offset=".46" stop-color="#453d33"/><stop offset="1" stop-color="#242820"/></linearGradient>
+ <linearGradient id="mirror" x1="0" x2="1" y2="1"><stop stop-color="#555e54"/><stop offset=".55" stop-color="#9a8e7d"/><stop offset="1" stop-color="#383e35"/></linearGradient>
+ <linearGradient id="leather" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3d453b"/><stop offset=".6" stop-color="#1d2622"/><stop offset="1" stop-color="#0e1817"/></linearGradient>
+ <linearGradient id="metal" x1="0" x2="1"><stop stop-color="#554c42"/><stop offset=".35" stop-color="#e5c7a0"/><stop offset=".65" stop-color="#967b5d"/><stop offset="1" stop-color="#423a33"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#ffcf8b" stop-opacity=".46"/><stop offset="1" stop-color="#ffcf8b" stop-opacity="0"/></radialGradient>
+ <filter id="blur"><feGaussianBlur stdDeviation="12"/></filter>
+ <filter id="shadow"><feDropShadow dx="7" dy="19" stdDeviation="17" flood-color="#000" flood-opacity=".47"/></filter>
+ <pattern id="wallstripe" width="130" height="90" patternUnits="userSpaceOnUse"><path d="M0 90h130 M0 0h130" stroke="#c7b08d" stroke-opacity=".05" stroke-width="2"/></pattern>
+</defs>
+<rect width="850" height="980" fill="url(#wall)"/><rect width="850" height="980" fill="url(#wallstripe)"/>
+<circle cx="360" cy="270" r="480" fill="url(#glow)"/><path d="M0 810 850 780V980H0Z" fill="#25271f"/><path d="M0 814 850 785M0 920l850-76M0 970l850-74" stroke="#a28b70" stroke-opacity=".24" stroke-width="4"/>
+<!-- art-deco mirror frame -->
+<path d="M150 150 Q150 85 215 85H574Q640 85 640 150V650H150Z" fill="#2e302a" stroke="url(#metal)" stroke-width="23"/>
+<path d="M174 149Q174 109 215 109H574Q616 109 616 149V626H174Z" fill="url(#mirror)" stroke="#c6a889" stroke-width="3"/>
+<path d="M195 123 605 580V620H559L181 195Z" fill="#fff6e2" opacity=".04"/>
+<path d="M530 113 190 440V320L415 113Z" fill="#fff" opacity=".065"/>
+<!-- reflected shelves -->
+<g opacity=".62"><rect x="195" y="340" width="82" height="12" fill="#2b2c25"/><rect x="201" y="296" width="15" height="42" rx="3" fill="#5c4432"/><rect x="228" y="308" width="18" height="30" rx="3" fill="#aa8b65"/><rect x="252" y="287" width="13" height="51" rx="3" fill="#292b24"/><rect x="494" y="389" width="99" height="12" fill="#2b2c25"/><rect x="505" y="340" width="19" height="46" rx="4" fill="#98734e"/><rect x="535" y="359" width="16" height="27" rx="3" fill="#2e332c"/><rect x="563" y="331" width="16" height="55" rx="4" fill="#cf9b6b"/></g>
+<!-- left sconce -->
+<path d="M67 280H140" stroke="#a78e70" stroke-width="7"/><circle cx="67" cy="280" r="17" fill="#b79a76"/><path d="M38 218H96L86 261H48Z" fill="#e6bd86"/><ellipse cx="67" cy="248" rx="53" ry="85" fill="url(#glow)"/><rect x="62" y="260" width="10" height="24" fill="#b89b73"/>
+<!-- reflection of client silhouette -->
+<g opacity=".48"><path d="M322 629c-2-93-6-161 16-213 17-34 37-51 72-53 43-2 67 29 82 69 14 48 14 117 18 197Z" fill="#31352f"/><path d="M362 379c-17-32-18-74-6-109 15-39 55-57 88-45 42 11 57 55 46 96-7 31-28 53-51 65-37 15-58 7-77-7Z" fill="#272d29"/><path d="M359 292q-2-69 64-72 54 3 70 48-24-18-45-16-22 9-46 1-22 32-43 39Z" fill="#181e1c"/></g>
+<!-- chair back -->
+<ellipse cx="430" cy="830" rx="224" ry="38" fill="#111715" opacity=".5" filter="url(#blur)"/>
+<g filter="url(#shadow)">
+ <rect x="325" y="679" width="36" height="117" fill="url(#metal)"/><rect x="496" y="679" width="36" height="117" fill="url(#metal)"/>
+ <path d="M358 765h138v74H358Z" fill="#71614d" stroke="#dbb98e" stroke-width="7"/>
+ <path d="M386 813h77v80h-77Z" fill="url(#metal)"/><ellipse cx="423" cy="912" rx="133" ry="23" fill="#4a463c" stroke="#d2b18a" stroke-width="9"/><ellipse cx="423" cy="911" rx="79" ry="9" fill="#242a25"/>
+ <rect x="317" y="423" width="217" height="325" rx="76" fill="url(#leather)" stroke="url(#metal)" stroke-width="15"/>
+ <rect x="344" y="449" width="164" height="247" rx="53" fill="none" stroke="#798078" stroke-opacity=".35" stroke-width="5"/>
+ <path d="M423 453v237" stroke="#838474" stroke-opacity=".19" stroke-width="3"/>
+ <rect x="285" y="677" width="284" height="72" rx="26" fill="url(#leather)" stroke="url(#metal)" stroke-width="13"/>
+ <path d="M286 569q-64-9-60 57l1 87h70l34-108Z" fill="url(#metal)"/>
+ <path d="M568 569q64-9 60 57l-1 87h-70l-34-108Z" fill="url(#metal)"/>
+ <rect x="210" y="604" width="122" height="35" rx="16" fill="#252d28" stroke="#c2a37e" stroke-width="10"/>
+ <rect x="531" y="604" width="122" height="35" rx="16" fill="#252d28" stroke="#c2a37e" stroke-width="10"/>
+ <path d="M251 717 221 792h57l49-70" fill="none" stroke="url(#metal)" stroke-width="18"/>
+ <path d="M602 717 634 792h-57l-49-70" fill="none" stroke="url(#metal)" stroke-width="18"/>
+</g>
+<g fill="none" stroke="#f2d0a5" stroke-opacity=".5"><path d="M76 820h117M674 820h90"/><path d="M68 829h123M671 829h98"/></g>
+<text x="62" y="89" font-size="13" font-family="Georgia" fill="#ecd6b6" letter-spacing="9" opacity=".75">THE CRAFT</text>
+<text x="730" y="700" font-size="47" font-family="Georgia" fill="#e1bd92" opacity=".13" transform="rotate(-90 730 700)">ATELIER NOIR</text>
+</svg>
